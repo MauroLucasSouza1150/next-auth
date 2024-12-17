@@ -1,36 +1,23 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Next Auth
 
-## Getting Started
+Projeto feito em [Next.js](https://nextjs.org) com a ferramenta do nextauth para autenticação de formulário.
 
-First, run the development server:
+## Como funciona o projeto
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Eu tenho que preencher esse formulário de acordo com os meus dados corretamente, caso seja com email e senha incorretas, mostrará um erro, caso seja com os dados corretos, levará para uma outra página(um dashboard) com o meu nome corretamente.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Tela de Login com email e senha incorretas.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+![Captura de tela 2024-12-17 140940](https://github.com/user-attachments/assets/0239f18e-371c-4060-a551-f6211afbfbd5)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Aparecerá essa mensagem de erro
 
-## Learn More
+![Captura de tela 2024-12-17 141002](https://github.com/user-attachments/assets/855b36c5-c79c-49b0-bdd0-e0559c94be43)
 
-To learn more about Next.js, take a look at the following resources:
+### Tela de Login com email e senha corretas.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+![Captura de tela 2024-12-17 141025](https://github.com/user-attachments/assets/07be18c0-7bee-4ee5-9b2f-d17ffefb5c05)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Após o Login feito, imagem do Dashboard com o meu nome correto(Com o Butão de fazer Logout), que vai voltar para a página inicial.
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+![Captura de tela 2024-12-17 141042](https://github.com/user-attachments/assets/4518009c-bd94-42b3-bd9e-0d5bcef7dcd4)
